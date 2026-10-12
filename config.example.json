@@ -1,0 +1,14 @@
+{
+  "$comment": "project-memory 可选配置示例：复制为本目录下的 config.json 后按需修改（config.json 已被 .gitignore 忽略）。相对路径按本文件所在目录解析。ledger_path 为 null 表示无台账模式（默认）：不读取、不创建任何台账文件；指向一个 Markdown 表格文件则启用台账模式。",
+  "ledger_path": null,
+  "memory_root": "memory",
+  "db_path": "data/index.sqlite",
+  "registry_path": "data/registry.json",
+  "report_dir": "data/reports",
+  "stale_days": 14,
+  "search_default_limit": 8,
+  "search_max_limit": 50,
+  "read_max_lines": 400,
+  "lock_timeout": 30,
+  "semantic_enabled": false
+}
